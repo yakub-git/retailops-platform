@@ -25,5 +25,5 @@ jobs:
         working-directory: ./app
 
       - name: Verify application
-        run: node index.js
+        run: node --check index.js
         working-directory: ./app
